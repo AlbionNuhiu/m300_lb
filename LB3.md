@@ -33,6 +33,5 @@ Dieses Dockerprojekt hat ein Internes Netzwerk welches nur von den Containern se
 !                                              /|\                                               !
 !                                               |                                                !
 +-----------------------------------------------|------------------------------------------------+
-                                                |
 '''
 
