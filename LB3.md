@@ -34,4 +34,4 @@ Dieses Dockerprojekt hat ein Internes Netzwerk welches nur von den Containern se
     !                                               |                                                !
     +-----------------------------------------------|------------------------------------------------+
 # Container Bauen
-Um meinen eigenen Docker Container zu bauen benötigt man nur das Dockerfile. Mit dem Befehl docker build -t flavio . Baut man sich meinen Container zusammen. Er Basiert auf Ubuntu 18.04 und Apache.
+Um meinen eigenen Docker Container zu bauen benötigt man nur das Dockerfile. Mit dem Befehl docker build -t albion . Baut man sich meinen Container zusammen. Er Basiert auf Ubuntu 18.04 und Apache.
