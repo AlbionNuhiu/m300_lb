@@ -5,7 +5,7 @@ Dieser Service ist ein einfacher Webserver bei dem die Unterseiten auf verschide
 # Netzwerkübersicht
 Dieses Dockerprojekt hat ein Internes Netzwerk welches nur von den Containern selbst zugegrifen werden kann und eines das auch von Extern ereichbar ist. Von Extern ist nur der nginx Reverse Proxy über den Port 8080 ereichbar.
 
-
+###
 +------------------------------------------------------------------------------------------------+
 ! Dockernetz - 172.28.0.0/16                                                                     !  
 ! NAT-Port: 8080                                                                                 !	
@@ -34,3 +34,4 @@ Dieses Dockerprojekt hat ein Internes Netzwerk welches nur von den Containern se
 !                                               |                                                !
 +-----------------------------------------------|------------------------------------------------+
                                                 |
+###
