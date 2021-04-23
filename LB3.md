@@ -1,1 +1,4 @@
+# Einleitung
 Dies ist die Dokumentation für das Docker-Projekt für Modul 300. Ich hwollte verschiedene Komponenten für dieses Docker-Projekt verwenden. Ich habe nur einen Reverse-Proxy, der 3 Webanwendungen schützen kann, 2 einfache Apache's und einen eigenen Apache-basierten Container. Alle HTML-Dateien sind externe Dateien, sodass sie beim Verschieben des Containers weiterhin verfügbar sind(Von Herrn Berger vorgeschlgen, bzw. gezeigt). Im Container befindet sich ein internes Netzwerk, auf das von außen nicht zugegriffen werden kann! Auf die Website kann nur über einen Reverse Proxy zugegriffen werden. Diese Art bietet zusätzlichen Schutz für Webanwendungen und war mir in dem Sinn sehr positiv vorgekommen.
+# Servicebeschreibung
+Dieser Service ist ein einfacher Webserver bei welchem die Unterseiten auf verschidenen Server liegen und so könnte man zum Beispiel einen Blog und ein Wiki auf der gleichen IP haben.
