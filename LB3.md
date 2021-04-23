@@ -4,6 +4,7 @@ Dies ist die Dokumentation für das LB3 Docker-Projekt für Modul 300. Ich hwoll
 Dieser Service ist ein einfacher Webserver bei dem die Unterseiten auf verschidenen Server liegen. So kann man beispielsweise einen Blog und ein Wiki auf der genau gleichen IP haben!
 # Netzwerkübersicht
 Dieses Dockerprojekt hat ein Internes Netzwerk welches nur von den Containern selbst zugegrifen werden kann und eines das auch von Extern ereichbar ist. Von Extern ist nur der nginx Reverse Proxy über den Port 8080 ereichbar.
+
 '''
 +------------------------------------------------------------------------------------------------+
 ! Dockernetz - 172.28.0.0/16                                                                     !  
@@ -34,3 +35,4 @@ Dieses Dockerprojekt hat ein Internes Netzwerk welches nur von den Containern se
 +-----------------------------------------------|------------------------------------------------+
                                                 |
 '''
+
