@@ -48,3 +48,9 @@ Im nginx.conf die Line 7 Anpassen auf die IP des Host's auf dem die Docker Umgeb
 Den eigenen Container Bauen mit docker build -t albion .
 Mit docker-compose up -d die ganze Umgebung starten Fertig
 Um Die Umgebung herunter zu fahren reicht ein Befehl: docker-compose down.
+# Testfälle
+Service	Testfall	Beschreibung	Erwartetes Ergebnis	Tatsächliches Ergebnis
+Proxy	Nginx Anzeige	Wen man auf die IP geht bekommt man eine Webseite die vom Nginx stammt.	Nginx git den Fehler 404 zurück weil er selbst keine Webseite beinhaltet.	Nginx gibt den Fehler 404 zurück.
+Web Server 1	Web Server 1 ereichbar	Der Web Server 1 sollte eine kleine Webseite Anzeigen	Die Webseite sollte angezeigt werden und auf der Seite sollte "Web 01" stehen.	Die Webseite wird angezeigt und es steht "Web 01".
+Web Server 2	Web Server 2 ereichbar	Der Web Server 2 sollte eine kleine Webseite Anzeigen	Die Webseite sollte angezeigt werden und auf der Seite sollte "Web 02" stehen.	Die Webseite wird angezeigt und es steht "Web 02".
+Web Server 3	Web Server 3 ereichbar	Der Web Server 3 sollte eine kleine Webseite Anzeigen	Die Webseite sollte angezeigt werden und auf der Seite sollte "Web 03" stehen.	Die Webseite wird angezeigt und es steht "Web 03".
