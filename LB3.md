@@ -34,4 +34,17 @@ Dieses Dockerprojekt hat ein Internes Netzwerk welches nur von den Containern se
     !                                               |                                                !
     +-----------------------------------------------|------------------------------------------------+
 # Container Bauen
+
 Um meinen eigenen Docker Container zu bauen benötigt man nur das Dockerfile. Mit dem Befehl docker build -t albion . Baut man sich meinen Container zusammen. Er Basiert auf Ubuntu 18.04 und Apache.
+# Umgebung Starten
+Um diese Docker Umgebung zu starten muss man gewisse vorbereitungen Treffen.
+
+Alle Datein Herunterladen. (docker-compose.yml,Dockerfile,nginx.conf)
+Ein Verzeichnis Erstellen.
+Die Heruntergeladen Dateien in dieses Verzeichnis verschieben.
+3 Ordner erstellen mit den Namen http1,http2 und http3.
+In jedem Verzeichnis mindestens eine index.html erstellen.
+Im nginx.conf die Line 7 Anpassen auf die IP des Host's auf dem die Docker Umgebung läuft, alternativ kan man hier auch einen DNS Namen eintragen der auf den Host zeigt.
+Den eigenen Container Bauen mit docker build -t albion .
+Mit docker-compose up -d die ganze Umgebung starten Fertig
+Um Die Umgebung herunter zu fahren reicht ein Befehl: docker-compose down.
